@@ -4,7 +4,7 @@ import (
 	"strconv"
 )
 
-func fbconv(i int) (out string) {
+func Fbconv(i int) (out string) {
 	if i%3 == 0 {
 		out = out + "fizz"
 	}
